@@ -22,6 +22,12 @@ paths:
           required: true
           schema:
             type: integer
+        - name: search
+          in: query
+          description: Search in entries titles by provided string
+          required: false
+          schema:
+            type: string
         - name: type
           in: query
           required: false
